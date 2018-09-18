@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <button ion-button color="danger" block outline (click)="takePhoto()">Take Picture</button>
+    <button ion-button color="primary" block (click)="getPhoto()">Get picture from gallery</button>
+    <button ion-button color="danger" block (click)="cropPhoto()">Crop Image</button>
+    <p align ="center"><img src="{{myphoto}}"></p>
+</ion-content>
